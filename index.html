@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magic</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+  <main class="container">
+
+    <section class="container mt-5">
+      <h1 style="color: blue; text-align: center;">MAGIC CARD</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+        <div id="fstcard" class="col ">
+          <div class="card h-100 ">
+            <img style="height: 300px; width: 500px;" src="Image/1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Choose One card of This image in your mind. </h5>
+
+            </div>
+            <div class=" d-flex justify-content-between">
+              <button onclick="myFunction()" class="btn" >Click Me</button>
+            </div>
+          </div>
+        </div>
+    
+        <div id="scndcard" class="col ">
+          <div class="card h-100 ">
+            <img style="height: 300px; width: 500px;"class="card-img-top" src="Image/2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Magic.... vanish your card</h5>
+
+            </div>
+
+            </div>
+          </div>
+        </div>
+     
+
+
+    </section>
+    
+  </main>
+<script>
+
+function myFunction() {
+    document.getElementById("scndcard").style.display = "block";
+    document.getElementById("fstcard").style.display = "none";
+  }
+</script>
+
+  <script
+   src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous">
+
+
+
+</script>
+</body>
+
+</html>
